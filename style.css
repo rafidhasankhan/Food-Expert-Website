@@ -1,0 +1,173 @@
+body {
+    font-family: 'Monda', sans-serif;
+    margin: 0;
+}
+
+
+/* ----Menu Section part Optional part---- */
+.menu {
+    width: 21%;
+    margin-left: 50%;
+    margin-top: 0px;
+}
+
+.menu ul {
+	 list-style: none;
+	display: flex;
+}
+
+.menu li{
+	padding-right: 80px;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 700;
+	color: rgb(13, 79, 150);
+	text-transform: uppercase;
+}
+
+.menu .active a{
+	color: #77e827d2;
+}
+/* ----- Order and Contact section part----- */
+
+section {
+    display: flex;
+    margin: 100px 0px 50px;
+}
+.intro-part {
+background-color: rgba(144, 247, 131, 0.316)
+}
+.intro-part p{
+color: rgb(16, 32, 97);
+font-size: 20px;
+text-align: justify;
+}
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+}
+
+.half-width img {
+    width: 90%;
+    border-radius: 20px;
+}
+
+.span-color {
+    color: tomato;
+}
+
+.header-size {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 10px 35px;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.top-banner{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+/* ------Recipe section part------ */
+
+.recipe {
+    background-color: #e4e3ffcc;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: rgb(26 148 86);
+    border: 1px solid #d6d6c5;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 12px #07251f30;
+}
+
+.recipe h1 {
+    font-size: 45px;
+    color: rgba(51, 7, 79, 0.761);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ----- Food Item section part----- */
+
+.three-in-one {
+    width: 80%;
+    margin-left: 12%;
+}
+
+.food-item {
+    box-shadow: 0px 0px 5px 8px #a1b38873;
+    border-radius: 14px;
+    margin-right: 40px;
+    border: 1px solid thistle;
+}
+
+.food-item img {
+    width: 96%;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+
+.food-item h1 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(13, 75, 64);
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.food-item p {
+    text-align: justify;
+    padding: 5px;
+    color: rgb(61, 42, 6);
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* -- For Social Section Part -- */
+
+.social-main {
+    box-shadow: turquoise 17px 1px 61px 12px;
+}
+
+.social-item {
+    text-align: center;
+    margin-left: 210px;
+    margin-right: 0px;
+}
+
+.social-item h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* -----End part------ */
+
+.end-part {
+    background-color: #1a4674e2;
+}
+
+.end-part-two h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 300px;
+}
+
+.end-part-two p {
+    margin-left: 300px;
+    font-size: 30px;
+    color: white;
+}
